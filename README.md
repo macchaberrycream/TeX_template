@@ -10,8 +10,8 @@
 - deoplete.nvim
 
 ## settings
-
-```perl:~.latexmkrc
+### ~/.latexmkrc
+```perl
 #!/usr/bin/perl
 
 $latex = 'uplatex -kanji=utf8 -synctex=1 -halt-on-error -interaction=nonstopmode %O %S';
@@ -25,7 +25,8 @@ $pvc_view_file_via_temporary = 0;
 $pdf_previewer = "open -ga /Applications/Skim.app";
 ```
 
-```toml:~/.config/nvim/dein.toml
+### ~/.config/nvim/dein.toml
+```toml
 # quickrun {{{
 [[plugins]]
 repo = 'thinca/vim-quickrun'
@@ -50,7 +51,8 @@ let g:quickrun_config = {
 # }}}
 ```
 
-```toml:~/.config/nvim/dein_lazy.toml
+### ~/.config/nvim/dein_lazy.toml
+```toml
 [[plugins]]
 repo = 'lervag/vimtex'
 on_ft = 'tex'
