@@ -25,6 +25,13 @@ $pvc_view_file_via_temporary = 0;
 $pdf_previewer = "open -ga /Applications/Skim.app";
 ```
 
+### ~/.config/nvim/init.vim
+```vimrc
+" TeX {{{
+let g:tex_flavor = "latex"
+" }}}
+```
+
 ### ~/.config/nvim/dein.toml
 ```toml
 # quickrun {{{
