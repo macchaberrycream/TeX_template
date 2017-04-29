@@ -26,7 +26,7 @@ $pdf_previewer = "open -ga /Applications/Skim.app";
 ```
 
 ### ~/.config/nvim/init.vim
-```vimrc
+```vim
 " TeX {{{
 let g:tex_flavor = "latex"
 " }}}
